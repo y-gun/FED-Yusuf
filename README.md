@@ -40,12 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.coinbase.com/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Coinbase - Buy & Sell Bitcoin, Ethereum, and more with trust (Home page van Coinbase)
+  <img src="./readme-images/Pagina-1.png" width="375px" alt="Dit is de homepagina van Coinbase, deze ga ik namaken.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Pagina 2 Coinbase
+  <img src="readme-images/Pagina-2.jpg" width="375px" alt="Dit is de tweede pagina, een belangrijk pagina die voor mij het meest aanspreekt voor een website zoals Coinbase">
  
 </details>
 
@@ -95,11 +95,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Yusuf          | Aidan              | Tico           | n.v.t.           |
+  | ---            | ---                | ---            | ---              |
+  | HTLM correct?  | HTML correct?      | HTML correct?  | n.v.t            |
+  | CSS?           | dit als er tijd is | CSS beter?     | n.v.t            |
+  | ...            | ...                | ...            | ...              |
 
 
   ### Verslag van meeting
