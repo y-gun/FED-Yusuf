@@ -28,4 +28,129 @@
 /****************/
 
 /* jouw code */
+body {
+	margin: 0;
+	font-family: 'Public Sans', sans-serif;
+}
 
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 16px;
+}
+
+header img {
+	max-height: 20px;
+	max-width: 112px;
+}
+
+.Navigatie {
+	display: flex;
+	align-items: center;
+}
+
+.Navigatie ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.Navigatie ul li {
+	margin-right: 16px;
+	opacity: 0.5;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.Navigatie ul li:hover,
+.Navigatie ul li.active {
+	opacity: 1;
+}
+
+.Navigatie a {
+	text-decoration: none;
+	color: black;
+	transition: color 0.3s ease-in-out;
+}
+
+.Navigatie a:hover,
+.Navigatie ul li.active a {
+	color: rgb(1, 76, 236);
+}
+
+.Navigatie ul ul {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Navigatie ul li:hover > ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.Navigatie ul ul li {
+	width: 100%;
+	margin: 0;
+}
+
+main {
+	margin-top: 60px;
+}
+
+#Registreren,
+#Inloggen {
+	display: inline-block;
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 40px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#Registreren {
+	background-color: rgb(1, 76, 236);
+	color: #fff;
+	margin-left: 10px;
+}
+
+#Inloggen {
+	background-color: rgb(233, 235, 238);
+	color: black;
+}
+
+@media (max-width: 1052px) {
+	.Navigatie ul {
+	  display: none; /* Verberg de navigatie */
+	}
+
+	#Inloggen {
+		display: none;
+	}
+
+	header {
+		padding: 10px;
+	}
+
+}
+
+@media (max-width: 390px) {
+	header img {
+		max-height: 16px;
+		max-width: 80px;
+	}
+}
+
+@media (max-width: 280px) {
+	header img {
+		display: none;
+	}
+}
