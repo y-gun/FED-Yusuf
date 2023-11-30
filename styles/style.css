@@ -154,3 +154,8 @@ main {
 		display: none;
 	}
 }
+
+/* @keyframes Registreren {
+	from { transform: translateX(0); }
+	to { transform: translateX(0); }
+  } */
